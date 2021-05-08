@@ -2,7 +2,7 @@ function knapsack_dp(objChart, w_constraint) {
 	let maxValue;
 	const dp = [];
 	for (let i = 0; i <= objectChart.length; i++) {
-		let row = new Array(w_constraint+1); row.fill(0);
+		const row = new Array(w_constraint+1); row.fill(0);
 		dp.push(row);
 	}
 
